@@ -1,0 +1,10 @@
+/**
+ * @name CustomFluentNekotopiaEmojiMapper
+ * @author Mat
+ * @version 1.0.0
+ * @description Replaces a few Custom twiemoji style emoji from Nekotopia with matching Custom fluent3d style emojis
+*/
+
+
+img[src*="1300397919693963314"] {content: url("https://raw.githubusercontent.com/MathieuBibi/HostedFiles/refs/heads/main/Custom_fluent_3d_emojis/Eyes_Bleed_Fluent.png") !important;}
+img[src*="857783186485542913"] {content: url("https://raw.githubusercontent.com/MathieuBibi/HostedFiles/refs/heads/main/Custom_fluent_3d_emojis/Cool_Finger_Guns.png") !important;}
