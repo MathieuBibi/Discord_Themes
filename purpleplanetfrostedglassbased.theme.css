@@ -1,0 +1,53 @@
+/**
+ * @name PurplePlanet
+ * @author Mat
+ * @version 2.0.0
+ * @description Based on FrostedGlass by Gibbu.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://raw.githubusercontent.com/MathieuBibi/HostedFiles/main/PlanetBackground.png');
+  --background-image-blur: 5px;
+  --background-image-size: 130%;
+  --background-image-position: top center;
+  --popout-image: url('https://raw.githubusercontent.com/MathieuBibi/HostedFiles/main/PlanetBackground.png');
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://raw.githubusercontent.com/MathieuBibi/HostedFiles/main/PlanetBackground.png');
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://raw.githubusercontent.com/MathieuBibi/HostedFiles/main/PlanetBackground.png');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.65;
+  --middle-brightness: 0.5;
+  --right-brightness: 0.25;
+  --overlay-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 112deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Signika Negative;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --update-notice-1: none;
+}
+
+/* Any custom CSS below here */
+
+/* [class^="members_"], [class^="container_"][class*="members_"] {
+    background: rgba(0, 0, 0, 0.4) !important;
+} */
