@@ -4,6 +4,7 @@ import urllib.parse
 
 BASE_URL = "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets"
 REPO_PATH = "C:/Users/mathi/Programming Projects/Emoji Mapper/fluentui-emoji/assets"
+# this path is hard coded, you'd have to change the path to any custom directory on your device where you cloned the microsoft fluent emoji github repo
 
 THEME_HEADER = """/**
  * @name FluentEmojiMapper2
@@ -116,4 +117,5 @@ def generate_css():
     print(f"Successfully generated: {len(css_lines)} lines")
 
 if __name__ == "__main__":
+
     generate_css()
